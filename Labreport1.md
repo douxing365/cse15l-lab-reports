@@ -3,7 +3,7 @@
 ```
 [user@sahara ~]$ cd lecture1/
 ```
-##output 
+## output 
 ```
 [user@sahara ~/lecture1]$
 ```
