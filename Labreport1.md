@@ -3,23 +3,23 @@
 ```
 [user@sahara ~]$ cd
 ```
-## output 
+**output**
 ```
 [user@sahara ~]$ 
 ```
-## a path to a directory as an argument
+**a path to a directory as an argument**
 ```
 [user@sahara ~]$ cd lecture1/
 ```
-## output 
+**output**
 ```
 [user@sahara ~/lecture1]$ 
 ```
-## a path to a file as an argument
+**a path to a file as an argument**
 ```
 [user@sahara ~/lecture1]$ cd README 
 ```
-## output 
+**output**
 ```
 bash: cd: README: Not a directory
 ```
