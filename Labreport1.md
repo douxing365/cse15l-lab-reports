@@ -1,5 +1,5 @@
-#cd <br />
-##no argument 
+# cd <br />
+## no argument 
 ```
 [user@sahara ~]$ cd lecture1/
 ```
