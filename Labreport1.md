@@ -54,9 +54,7 @@ README
 [user@sahara ~]$ cat
 ```
 **output**
-```
-the terminal was stuck in there and I need press on the control D to free the terminal 
-```
+the terminal was stuck in there and I need to press on the control D to free the terminal 
 **a path to a directory as an argument**
 ```
 [user@sahara ~]$ cat lecture1/
