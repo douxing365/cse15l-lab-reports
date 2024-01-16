@@ -11,9 +11,6 @@
 **working directory**: home <br />
 **explanation of the output**：because there is no further directory behind the cd so, it will stay in home directory.<br />
 **error or not**: this is not an error.<br />
-**working directory**: <br />
-**explanation of the output**：<br />
-**error or not**: <br />
 ## a path to a directory as an argument
 **code block**
 ```
@@ -85,9 +82,9 @@ README
 ```
 **output**
 the terminal was stuck in there and I need to press on the control D to free the terminal 
-**working directory**: <br />
-**explanation of the output**：<br />
-**error or not**: <br />
+**working directory**: home <br />
+**explanation of the output**：nothing turns out, the terminal was stuck, because cat means read and show the file, but I did put any file or directory follow cat, therefore there is an error appears.<br />
+**error or not**: this is an error, because I did not put any file or directory behind it <br />
 ## a path to a directory as an argument
 **code block**
 ```
@@ -97,9 +94,9 @@ the terminal was stuck in there and I need to press on the control D to free the
 ```
 cat: lecture1/: Is a directory
 ```
-**working directory**: <br />
-**explanation of the output**：<br />
-**error or not**: <br />
+**working directory**: home/lecture1 <br />
+**explanation of the output**：because cat can only read file, but lecture1 is a directory, therefore cat can not read it and turns out an error <br />
+**error or not**: this is an error, because cat can only read file, but lecture1 is a directory <br />
 ## a path to a file as an argument
 **code block**
 ```
@@ -112,9 +109,9 @@ To use this program:
 javac Hello.java
 java Hello messages/en-us.txt
 ```
-**working directory**: <br />
-**explanation of the output**：<br />
-**error or not**: <br />
+**working directory**: home/lecture1/README <br />
+**explanation of the output**：cat reads and shows the content in the file that I put behind it <br />
+**error or not**: this is not an error <br />
 
 
 
