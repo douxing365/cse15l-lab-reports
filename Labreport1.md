@@ -1,5 +1,5 @@
 # cd <br />
-**no argument**
+## no argument
 ```
 [user@sahara ~]$ cd
 ```
@@ -7,7 +7,7 @@
 ```
 [user@sahara ~]$ 
 ```
-**a path to a directory as an argument**
+## a path to a directory as an argument
 ```
 [user@sahara ~]$ cd lecture1/
 ```
@@ -15,7 +15,7 @@
 ```
 [user@sahara ~/lecture1]$ 
 ```
-**a path to a file as an argument**
+## a path to a file as an argument
 ```
 [user@sahara ~/lecture1]$ cd README 
 ```
@@ -24,7 +24,7 @@
 bash: cd: README: Not a directory
 ```
 # ls <br />
-**no argument**
+## no argument
 ```
 [user@sahara ~/lecture1]$ ls
 ```
@@ -32,7 +32,7 @@ bash: cd: README: Not a directory
 ```
 Hello.class  Hello.java  messages  README
 ```
-**a path to a directory as an argument**
+## a path to a directory as an argument
 ```
 [user@sahara ~/lecture1]$ ls messages/
 ```
@@ -40,7 +40,7 @@ Hello.class  Hello.java  messages  README
 ```
 en-us.txt  es-mx.txt  zh-cn.txt
 ```
-**a path to a file as an argument**
+## a path to a file as an argument
 ```
 [user@sahara ~/lecture1]$ ls README 
 ```
@@ -49,13 +49,13 @@ en-us.txt  es-mx.txt  zh-cn.txt
 README
 ```
 # cat 
-**no argument**
+## no argument
 ```
 [user@sahara ~]$ cat
 ```
 **output**
 the terminal was stuck in there and I need to press on the control D to free the terminal 
-**a path to a directory as an argument**
+## a path to a directory as an argument
 ```
 [user@sahara ~]$ cat lecture1/
 ```
@@ -63,7 +63,7 @@ the terminal was stuck in there and I need to press on the control D to free the
 ```
 cat: lecture1/: Is a directory
 ```
-**a path to a file as an argument**
+## a path to a file as an argument
 ```
 [user@sahara ~/lecture1]$ cat README 
 ```
