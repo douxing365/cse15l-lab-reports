@@ -8,8 +8,12 @@
 ```
 [user@sahara ~]$ 
 ```
-**working directory**
-home 
+**working directory**: home <br />
+**explanation of the output**：because there is no further directory behind the cd so, it will stay in home directory.<br />
+**error or not**: this is not an error.<br />
+**working directory**: <br />
+**explanation of the output**：<br />
+**error or not**: <br />
 ## a path to a directory as an argument
 **code block**
 ```
@@ -19,6 +23,9 @@ home
 ```
 [user@sahara ~/lecture1]$ 
 ```
+**working directory**: homne/lecture1 <br />
+**explanation of the output**：because I put lecture1 behind cd, which ask the terminal to move to this directory <br />
+**error or not**: this is not an error<br />
 ## a path to a file as an argument
 **code block**
 ```
@@ -28,6 +35,9 @@ home
 ```
 bash: cd: README: Not a directory
 ```
+**working directory**: home/lecture1 <br />
+**explanation of the output**：because the README is not a directory but a file, cd can not move to a file so it stay in lecture1 <br />
+**error or not**: it is an error, because cd can only move to directory, not files.<br />
 # ls <br />
 ## no argument
 **code block**
@@ -38,6 +48,9 @@ bash: cd: README: Not a directory
 ```
 Hello.class  Hello.java  messages  README
 ```
+**working directory**: <br />
+**explanation of the output**：<br />
+**error or not**: <br />
 ## a path to a directory as an argument
 **code block**
 ```
@@ -47,6 +60,9 @@ Hello.class  Hello.java  messages  README
 ```
 en-us.txt  es-mx.txt  zh-cn.txt
 ```
+**working directory**: <br />
+**explanation of the output**：<br />
+**error or not**: <br />
 ## a path to a file as an argument
 **code block**
 ```
@@ -64,6 +80,9 @@ README
 ```
 **output**
 the terminal was stuck in there and I need to press on the control D to free the terminal 
+**working directory**: <br />
+**explanation of the output**：<br />
+**error or not**: <br />
 ## a path to a directory as an argument
 **code block**
 ```
@@ -73,6 +92,9 @@ the terminal was stuck in there and I need to press on the control D to free the
 ```
 cat: lecture1/: Is a directory
 ```
+**working directory**: <br />
+**explanation of the output**：<br />
+**error or not**: <br />
 ## a path to a file as an argument
 **code block**
 ```
@@ -85,6 +107,9 @@ To use this program:
 javac Hello.java
 java Hello messages/en-us.txt
 ```
+**working directory**: <br />
+**explanation of the output**：<br />
+**error or not**: <br />
 
 
 
