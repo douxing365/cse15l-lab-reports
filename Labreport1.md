@@ -82,9 +82,9 @@ README
 ```
 **output**
 the terminal was stuck in there and I need to press on the control D to free the terminal <br />
-and I also tried typing some text and hit enter <br />
+*And I also tried typing some text and hit enter* <br />
 `[user@sahara ~]$ cat anyways`
-and the out put be `cat: anyways: No such file or directory`
+*and the out put be* `cat: anyways: No such file or directory`
 **working directory**: `/home` <br />
 **explanation of the output**：nothing turns out, the terminal was stuck, because cat means read and show the file, but I did put any file or directory follow cat, therefore there is an error appears.<br />
 **error or not**: this is an error, because I did not put any file or directory behind it <br />
