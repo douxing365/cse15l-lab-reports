@@ -8,7 +8,7 @@
 ```
 [user@sahara ~]$ 
 ```
-**working directory**: home <br />
+**working directory**: `home` <br />
 **explanation of the output**：because there is no further directory behind the cd so, it will stay in home directory.<br />
 **error or not**: this is not an error.<br />
 ## a path to a directory as an argument
@@ -109,7 +109,7 @@ To use this program:
 javac Hello.java
 java Hello messages/en-us.txt
 ```
-**working directory**: home/lecture1/README <br />
+**working directory**: home/lecture1 <br />
 **explanation of the output**：cat reads and shows the content in the file that I put behind it <br />
 **error or not**: this is not an error <br />
 
