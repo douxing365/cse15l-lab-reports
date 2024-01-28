@@ -21,7 +21,7 @@
 [user@sahara ~/lecture1]$ 
 ```
 **working directory**: `/home` <br />
-**explanation of the output**：because I put lecture1 behind cd, which ask the terminal to move to this directory <br />
+**explanation of the output**：because I put `lecture1/` behind cd, which ask the terminal to move to this directory <br />
 **error or not**: this is not an error <br />
 ## a path to a file as an argument
 **code block**
@@ -33,7 +33,7 @@
 bash: cd: README: Not a directory
 ```
 **working directory**: `/home/lecture1` <br />
-**explanation of the output**：because the README.txt is not a directory but a file, cd can not move to a file so it stay in lecture1 <br />
+**explanation of the output**：because the `README` is not a directory but a file, cd can not move to a file so it stay in lecture1 <br />
 **error or not**: it is an error, because cd can only move to directory, not files. <br />
 
 # ls <br />
