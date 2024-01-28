@@ -47,7 +47,7 @@ bash: cd: README: Not a directory
 Hello.class  Hello.java  messages  README
 ```
 **working directory**: `/home/lecture1` <br />
-**explanation of the output**：ls means that to show all the element in the current directory, so it just shows all the directories and files in the lecture1 <br />
+**explanation of the output**：ls means that to show all the element in the current directory, so it just shows all the directories and files in the `/lecture1` <br />
 **error or not**: this is not an error <br />
 ## a path to a directory as an argument
 **code block**
@@ -59,7 +59,7 @@ Hello.class  Hello.java  messages  README
 en-us.txt  es-mx.txt  zh-cn.txt
 ```
 **working directory**: `/home/lecture1` <br />
-**explanation of the output**：`ls messages/` just shows all the element in the directory messages <br />
+**explanation of the output**：`ls messages/` just shows all the element in the directory `messages/` <br />
 **error or not**: this is not an error <br />
 ## a path to a file as an argument
 **code block**
@@ -71,7 +71,7 @@ en-us.txt  es-mx.txt  zh-cn.txt
 README
 ```
 **working directory**: `/home/lecture1` <br />
-**explanation of the output**：because README is a file, therefore there is no any element in it other than itself, so the ls just shows README itself <br />
+**explanation of the output**：because `README` is a file, therefore there is no any element in it other than itself, so the ls just shows `README` itself <br />
 **error or not**: this is not an error <br />
 
 # cat 
@@ -87,7 +87,9 @@ the terminal was stuck in there and I need to press on the control D to free the
 *and the out put be* `cat: anyways: No such file or directory`<br />
 **working directory**: `/home` <br />
 **explanation of the output**：nothing turns out, the terminal was stuck, because cat means read and show the file, but I did put any file or directory follow cat, therefore there is an error appears.<br />
+and because I put a random word behind cat, and cat did not find any thing have the same name as the random word, there for , it says it didn't find it. <br />
 **error or not**: this is an error, because I did not put any file or directory behind it <br />
+and because what I put behind cat is invaild, therefore the termnial says it can't find the the file I want, this is also an error.<br />
 ## a path to a directory as an argument
 **code block**
 ```
@@ -98,8 +100,8 @@ the terminal was stuck in there and I need to press on the control D to free the
 cat: lecture1/: Is a directory
 ```
 **working directory**: `/home` <br />
-**explanation of the output**：because cat can only read file, but lecture1 is a directory, therefore cat can not read it and turns out an error <br />
-**error or not**: this is an error, because cat can only read file, but lecture1 is a directory <br />
+**explanation of the output**：because cat can only read file, but `lecture1/` is a directory, therefore cat can not read it and turns out an error <br />
+**error or not**: this is an error, because cat can only read file, but `lecture1/` is a directory <br />
 ## a path to a file as an argument
 **code block**
 ```
