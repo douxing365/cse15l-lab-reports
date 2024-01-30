@@ -51,4 +51,6 @@ class ChatServer {
     }
 }
 ```
-**screenshots of using `/add-message`**
+**Screenshots of using `/add-message`:**<br />
+![Image](
+
