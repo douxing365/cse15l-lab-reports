@@ -52,7 +52,9 @@ class ChatServer {
 }
 ```
 **Screenshots of using `/add-message`:**<br />
+`/add-message?s=Hello&user=jpolitz`
 ![Image](screenshotofadd1.png)<br />
+`/add-message?s=How are you&user=yash`
 ![Image](screenshotofadd2.png)<br />
 
 
