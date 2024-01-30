@@ -83,6 +83,8 @@ class ChatServer {
   * Relevant Fields in `Handler` class: `private String chatHistory`
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   * Changes in `chatHistory`:Before the request: `chatHistory` is whatever it was up to that point, After processing the request `chatHistory` will be updated with the new message, resulting in "yash: How are you\n" being appended to the existing `chatHistory`.
+
+
 # Part 2: Setting up SSH Keys for Easy Access
 1. The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
    * ![Image](privatekey.png)
@@ -91,4 +93,7 @@ class ChatServer {
 3. A terminal interaction where you log into your ieng6 account without being asked for a password.
    * ![Image](terminalinteraction.png)<br />
 
+
+# Part 3: Describe something I learned from lab
+ * I learned a lot about servers from the labs in weeks two and three. Previously, I had no idea how to start a server, but these labs have given me a solid understanding. Additionally, I learned how to log into the school's system through ieng6. Moreover, I mastered saving my login credentials, which has made it convenient as I no longer need to enter my password for subsequent logins. These skills are not only crucial for my current academic projects but also lay a strong foundation for my future endeavors in computer networking and system administration.
 
