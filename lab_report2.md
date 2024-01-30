@@ -4,15 +4,20 @@
 ```
 import java.io.IOException;
 import java.net.URI;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 
 class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
     private String chatHistory = "";
 
+    @Override
     public String handleRequest(URI url) {
         if ("/add-message".equals(url.getPath())) {
             String query = url.getQuery();
+            if (query == null) {
+                return "Query string is missing!";
+            }
+
             String[] queryParams = query.split("&");
             String user = null;
             String message = null;
@@ -20,9 +25,9 @@ class Handler implements URLHandler {
             for (String param : queryParams) {
                 String[] keyValue = param.split("=");
                 if ("user".equals(keyValue[0]) && keyValue.length > 1) {
-                    user = keyValue[1];
+                    user = URLDecoder.decode(keyValue[1], StandardCharsets.UTF_8);
                 } else if ("s".equals(keyValue[0]) && keyValue.length > 1) {
-                    message = keyValue[1];
+                    message = URLDecoder.decode(keyValue[1], StandardCharsets.UTF_8);
                 }
             }
 
@@ -30,10 +35,15 @@ class Handler implements URLHandler {
                 chatHistory += user + ": " + message + "\n";
                 return chatHistory;
             } else {
-                return "Invalid parameters!";
+                return "Invalid or incomplete parameters!";
             }
-        } else {
-            return "404 Not Found";
+        } 
+        else if ("/".equals(url.getPath())) {
+            // Handling the root path
+            return "Welcome to the Chat Server! Use /add-message to add messages.";
+        }
+        else {
+            return "404 Not Found: The requested URL " + url.getPath() + " was not found on this server.";
         }
     }
 }
