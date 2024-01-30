@@ -1,6 +1,6 @@
 ## Lab report 2 
 # Part 1: Chat Server 
-**code**
+**Code for the ChatServer**
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -51,3 +51,4 @@ class ChatServer {
     }
 }
 ```
+**screenshots of using `/add-message`**
