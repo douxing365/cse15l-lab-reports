@@ -71,13 +71,19 @@ class ChatServer {
    `URI url`: This contains the URI of the request. It will have the path `/add-message` and the query              `s=Hello&user=jpolitz`.
   * Relevant Fields in `Handler` class: `private String chatHistory`
 3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-  * Changes in chatHistory:Before the request chatHistory is an empty string.
-    After processing the request with /add-message?s=Hello&user=jpolitz chatHistory will be updated to include       the new message.
+  * Changes in `chatHistory`:Before the request `chatHistory` is an empty `string`, After processing the request with `/add-message?s=Hello&user=jpolitz` `chatHistory` will be updated to include the new message.
 
 `/add-message?s=How are you&user=yash`
 ![Image](screenshotofadd2.png)<br />
-* Which methods in your code are called?
-* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+1. Which methods in your code are called?
+  * `handleRequest(URI url)` in the `Handler` class
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+  * Relevant argumentshandleRequest(URI url):
+   `URI url`: This contains the URI of the request. It will have the path `/add-message` and the query              `s=Hello&user=jpolitz`.
+  * Relevant Fields in `Handler` class: `private String chatHistory`
+3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+  * Changes in `chatHistory`:Before the request: `chatHistory` is whatever it was up to that point, After processing the request `chatHistory` will be updated with the new message, resulting in "yash: How are you\n" being appended to the existing `chatHistory`.
+# Part 2: Setting up SSH Keys for Easy Access
+
 
 
