@@ -87,7 +87,9 @@ class ChatServer {
 
 # Part 2: Setting up SSH Keys for Easy Access
 1. The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
-   * ![Image](privatekey.png)
+   ```
+   /Users/zijunyang/.ssh/id_rsa
+   ```
 2. The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
    * ![Image](publickey.png)<br />
 3. A terminal interaction where you log into your ieng6 account without being asked for a password.
