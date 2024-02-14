@@ -2,12 +2,12 @@
 1.  A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 - JUnit Test:
 ```
-	@Test 
-	public void testReverseInPlace() {
-    	int[] input1 = { 3, 2, 1 };
+@Test 
+public void testReverseInPlace() {
+	int[] input1 = { 3, 2, 1 };
     	ArrayExamples.reverseInPlace(input1);
     	assertArrayEquals(new int[]{1, 2, 3 }, input1);
-	}
+}
 ```
 - Associated Code:
 ```
@@ -20,12 +20,12 @@
 2.  An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 - JUnit Test:
 ```
-	@Test 
-	public void testReverseInPlace() {
+@Test 
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+}
 ```
 - Associated Code:
 ```
