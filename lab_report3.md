@@ -109,7 +109,7 @@ At this point, `-type f` is help find command to find all the files in the curre
 ./technical/biomed
 ./technical/911report
 ```
-For `-type d` is to find all the directory in the current directory.
+For `-type d` is to find all the directory in the current directory.<br>
 2. `-mtime`
    - Example 1:
 ```
@@ -161,7 +161,7 @@ For `-type d` is to find all the directory in the current directory.
 ./technical/biomed
 ./technical/911report
 ```
-`-mtime -3` here is to help `find` to collect all the directory that been modified in last 3 days in the current directory.
+`-mtime -3` here is to help `find` to collect all the directory that been modified in last 3 days in the current directory.<br>
 3. `-size`
    - Example 1:
 ```
@@ -177,7 +177,7 @@ For `-type d` is to find all the directory in the current directory.
 ./technical/plos
 ./technical/biomed
 ```
-`-size` here is to help `find` to collect all the directory that bigger than 1 kilobytes in the current directory.
+`-size` here is to help `find` to collect all the directory that bigger than 1 kilobytes in the current directory.<br>
 
 4. `-empty`
 - Example 1:
