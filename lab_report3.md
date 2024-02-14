@@ -55,7 +55,7 @@ The previous code fails because it overwrites elements of the array before swapp
 
 ## Part 2 - Researching Commands
 1. `-type`
-   - Example 1:
+- Example 1:
 ```
 % find . -type f
 ./technical/911report/chapter-13.2.txt
@@ -180,7 +180,7 @@ For `-type d` is to find all the directory in the current directory.
 `-size` here is to help `find` to collect all the directory that bigger than 1 kilobytes in the current directory.
 
 4. `-empty`
-   - Example 1:
+- Example 1:
 ```
 % find . -type f -empty
 ./find-results.txt
