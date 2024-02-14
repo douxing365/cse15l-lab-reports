@@ -216,7 +216,8 @@ For `-type d` is to find all the directory in the current directory.<br><br>
 >d for directories,
 >l for symbolic links
 >Example: find . -type f finds all regular files in the current directory and its subdirectories.
--mtime: This option is used to find files based on their modification time. It is specified in days. For example, -mtime -1 finds files modified in the last 24 hours, while +1 would find files modified more than 24 hours ago. The time is calculated as 24-hour periods from the current moment.
+
+> -mtime: This option is used to find files based on their modification time. It is specified in days. For example, -mtime -1 finds files modified in the last 24 hours, while +1 would find files modified more than 24 hours ago. The time is calculated as 24-hour periods from the current moment.
 Example: find . -mtime -7 finds files that were modified in the last 7 days.
 
 > -size: This option is used to find files of a specific size. It can be used to search for files larger or smaller than a given size, with units such as c (bytes), k (kilobytes), M (megabytes), and G (gigabytes).
