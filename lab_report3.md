@@ -78,7 +78,7 @@ The previous code fails because it overwrites elements of the array before swapp
 ./technical/911report/chapter-10.txt
 ```
 At this point, `-type f` is help find command to find all the files in the current directory.
-   - Example 2:
+- Example 2:
 ```
 % find . -type d
 .
