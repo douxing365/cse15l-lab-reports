@@ -225,7 +225,6 @@ Example: find . -size +10M finds files larger than 10 megabytes.
 
 >-empty: This option finds empty files and directories. It's useful for cleaning up a filesystem or identifying unused files or directories.
 Example: find . -empty finds all empty files and directories in the current directory and its subdirectories.
-
 >These options can be combined to form powerful search queries. For example, to find all empty directories in the current directory, you could use find . -type d -empty. The find command's versatility makes it an essential tool for filesystem management and navigation in Unix-like operating systems.
 
 
