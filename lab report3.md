@@ -8,7 +8,6 @@
     	ArrayExamples.reverseInPlace(input1);
     	assertArrayEquals(new int[]{1, 2, 3 }, input1);
 	}
- ```
 - Associated Code:
   ```
     static void reverseInPlace(int[] arr) {
