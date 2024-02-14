@@ -56,8 +56,8 @@ The previous code fails because it overwrites elements of the array before swapp
 ## Part 2 - Researching Commands
 1. `-mtime`
    - Example 1:
-     `% find . -mtime -3
-     ./technical/911report/chapter-2.txt
+```
+% find . -mtime -3
 ./technical/911report/chapter-1.txt
 ./technical/911report/chapter-5.txt
 ./technical/911report/chapter-6.txt
@@ -67,7 +67,9 @@ The previous code fails because it overwrites elements of the array before swapp
 ./technical/911report/preface.txt
 ./technical/911report/chapter-12.txt
 ./technical/911report/chapter-10.txt
-./technical/911report/chapter-11.txt`
+./technical/911report/chapter-11.txt
+```     
+      
    
 
 
