@@ -214,7 +214,7 @@ For `-type d` is to find all the directory in the current directory.<br><br>
 >-type: This option is used to specify the type of files to be searched. It filters the search results based on the type of file. Commonly used types include:
 >f for regular files,
 >d for directories,
->l for symbolic links
+>l for symbolic links,
 >Example: find . -type f finds all regular files in the current directory and its subdirectories.<br>
 
 > -mtime: This option is used to find files based on their modification time. It is specified in days. For example, -mtime -1 finds files modified in the last 24 hours, while +1 would find files modified more than 24 hours ago. The time is calculated as 24-hour periods from the current moment.
