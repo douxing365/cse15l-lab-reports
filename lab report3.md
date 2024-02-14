@@ -18,20 +18,18 @@
 2.  An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 - JUnit Test:
   ```
-  @Test 
+	@Test 
 	public void testReverseInPlace() {
-    	int[] input1 = { 3, 2, 1 };
-    	ArrayExamples.reverseInPlace(input1);
-    	assertArrayEquals(new int[]{1, 2, 3 }, input1);
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
 	}
   
 - Associated Code:
   ```
-  static void reverseInPlace(int[] arr) {  
-    for(int i = 0; i < arr.length / 2; i++) { // Only iterate halfway through the array
-        int temp = arr[i]; // Temporary storage for the current element
-        arr[i] = arr[arr.length - i - 1]; // Swap the current element with the corresponding element from the end
-        arr[arr.length - i - 1] = temp; // Complete the swap
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
     }
   }
 4.  The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
