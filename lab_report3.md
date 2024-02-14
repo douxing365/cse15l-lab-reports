@@ -1,4 +1,4 @@
-## Part 1 Bugs
+## Part 1 - Bugs
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 - JUnit Test:
   ```
@@ -51,8 +51,11 @@
    	 }
      }
 # Briefly describe why the fix addresses the issue：
-The previous code fails because it overwrites elements of the array before swapping them, resulting in the loss of original values. By only iterating through half of the array and using a temporary variable to hold the value of elements during the swap, the issue is resolved, ensuring a correct reversal of the array.<br>adsfas
+The previous code fails because it overwrites elements of the array before swapping them, resulting in the loss of original values. By only iterating through half of the array and using a temporary variable to hold the value of elements during the swap, the issue is resolved, ensuring a correct reversal of the array.<br>
 
+## Part 2 - Researching Commands
+1. `-mtime`
+   -
 
 
 
