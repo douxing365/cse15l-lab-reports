@@ -72,6 +72,7 @@ The previous code fails because it overwrites elements of the array before swapp
 ./technical/911report/chapter-12.txt
 ./technical/911report/chapter-10.txt
 ```
+At this point, `-type f` is help find command to find all the files in the current directory.
    - Example 2:
 ```
 % find . -type d
@@ -108,6 +109,7 @@ The previous code fails because it overwrites elements of the array before swapp
 ./technical/biomed
 ./technical/911report
 ```
+For `-type d` is to find all the directory in the current directory.
 2. `-mtime`
    - Example 1:
 ```
@@ -122,6 +124,7 @@ The previous code fails because it overwrites elements of the array before swapp
 ./technical/911report/preface.txt
 ./technical/911report/chapter-12.txt
 ```
+`-mtime -3` here is to help `find` to collect all the files that been modified in last 3 days in the current directory.
    - Example 2:
 ```
 % find . -mtime -3 -type d
@@ -158,28 +161,14 @@ The previous code fails because it overwrites elements of the array before swapp
 ./technical/biomed
 ./technical/911report
 ```
-2. `-name`
-   - Example 1:
-```
-find ./technical -name chapter-1.txt
-./technical/911report/chapter-1.txt
-```   
-   - Example 2:
-```
-% find ./technical -name "*.txt"
-./technical/911report/chapter-7.txt
-./technical/911report/chapter-9.txt
-./technical/911report/chapter-8.txt
-./technical/911report/preface.txt
-./technical/911report/chapter-12.txt
-./technical/911report/chapter-10.txt
-```
+`-mtime -3` here is to help `find` to collect all the directory that been modified in last 3 days in the current directory.
 3. `-size`
    - Example 1:
 ```
 % find . -size +10M -type f
 ./.git/objects/pack/pack-f3e64844a2bd252cbb7d4b547cb60beb349fd441.pack
 ```
+`-size` here is to help `find` to collect all the files that larger than 10 megabytes in the current directory.
    - Example 2:
 ```
 % find . -size +1k -type d
@@ -188,6 +177,8 @@ find ./technical -name chapter-1.txt
 ./technical/plos
 ./technical/biomed
 ```
+`-size` here is to help `find` to collect all the directory that bigger than 1 kilobytes in the current directory.
+
 4. `-empty`
    - Example 1:
 ```
@@ -195,6 +186,7 @@ find ./technical -name chapter-1.txt
 ./find-results.txt
 ./grep-results.txt
 ```
+`-empty` here is to help `find` to collect all the empty files in the current directory.
    - Example 2:
 ```
 % find . -type d -empty 
@@ -202,6 +194,8 @@ find ./technical -name chapter-1.txt
 ./.git/refs/tags
 ./.git/branches
 ```
+`-empty` here is to help `find` to collect all the empty directory in the current directory.
+
 # Sources used:
 1. https://www.redhat.com/sysadmin/linux-find-command
 2. Chatgpt
