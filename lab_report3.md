@@ -54,7 +54,7 @@
 The previous code fails because it overwrites elements of the array before swapping them, resulting in the loss of original values. By only iterating through half of the array and using a temporary variable to hold the value of elements during the swap, the issue is resolved, ensuring a correct reversal of the array.<br>
 
 ## Part 2 - Researching Commands
-1. `-type`
+1.  `-type`
 - Example 1:
 ```
 % find . -type f
