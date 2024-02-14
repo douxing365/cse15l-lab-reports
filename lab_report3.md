@@ -205,7 +205,8 @@ For `-type d` is to find all the directory in the current directory.<br><br>
 1. https://www.redhat.com/sysadmin/linux-find-command
 2. Chatgpt
 > What I ask Chatgpt
-> What does find do in command line, and what does - type , -mtime, -size, -empty work for find command<br>
+> What does find do in command line, and what does - type , -mtime, -size, -empty work for find command <br>
+>
 > Answers:
 > The find command in the command line is a powerful utility available on Unix-like operating systems (such as Linux and macOS) used for searching the filesystem to find files and directories that meet certain criteria. It can search through one or more directories and evaluates an expression containing various tests, actions, and logical operators to find files or directories that match the specified conditions.
 
