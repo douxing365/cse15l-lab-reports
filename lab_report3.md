@@ -109,7 +109,7 @@ At this point, `-type f` is help find command to find all the files in the curre
 ./technical/biomed
 ./technical/911report
 ```
-For `-type d` is to find all the directory in the current directory.<br>
+For `-type d` is to find all the directory in the current directory.<br><br>
 2. `-mtime`
    - Example 1:
 ```
@@ -161,7 +161,7 @@ For `-type d` is to find all the directory in the current directory.<br>
 ./technical/biomed
 ./technical/911report
 ```
-`-mtime -3` here is to help `find` to collect all the directory that been modified in last 3 days in the current directory.<br>
+`-mtime -3` here is to help `find` to collect all the directory that been modified in last 3 days in the current directory.<br><br>
 3. `-size`
    - Example 1:
 ```
@@ -177,7 +177,7 @@ For `-type d` is to find all the directory in the current directory.<br>
 ./technical/plos
 ./technical/biomed
 ```
-`-size` here is to help `find` to collect all the directory that bigger than 1 kilobytes in the current directory.<br>
+`-size` here is to help `find` to collect all the directory that bigger than 1 kilobytes in the current directory.<br><br>
 
 4. `-empty`
 - Example 1:
@@ -194,7 +194,7 @@ For `-type d` is to find all the directory in the current directory.<br>
 ./.git/refs/tags
 ./.git/branches
 ```
-`-empty` here is to help `find` to collect all the empty directory in the current directory.
+`-empty` here is to help `find` to collect all the empty directory in the current directory.<br>
 
 # Sources used:
 1. https://www.redhat.com/sysadmin/linux-find-command
