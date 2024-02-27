@@ -5,14 +5,15 @@ I press `<ssh>` and `<ziy035@ieng6.ucsd.edu>`,becuase of I save the key on my co
 
 ## Step 5 Clone your fork of the repository from your Github account (using the SSH URL)
 ![Image](git-clone.png)
-I fork the repository on github and then copy the SSH URL from the repository and then I go back to terminal then I press `<git clone>` `<command+v>`
+I fork the repository on github and then copy the SSH URL from the repository and then I go back to terminal then I press `<git clone>` `<command+v>`then the repository successfully cloned to my ieng6.
 
 ## Step 6 Run the tests, demonstrating that they fail
 ![Image](runtest-fail.png)
-
+I press `<ls>` to check repository in my ieng6, and I use `<cd>` `<l>` `<tab>` to move to lab7/,and then `<ls>` to see files in lab7/, and then `<bash>` `<t> <tab>` to run the `test.sh`, and the demonstrate that the tests are fail.
 ## Step 7 Edit the code file to fix the failing test
 ![Image](open-vim.png)
 ![Image](use-vim-to-fix.png)
+
 
 ## Step 8 Run the tests, demonstrating that they now succeed
 ![Image](runtest-succeed.png)
