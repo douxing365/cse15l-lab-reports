@@ -22,4 +22,4 @@ I press `<bash> <t> <tab> <enter>` and then the result of all test passed show o
 
 ## Step 9 Commit and push the resulting change to your Github account (you can pick any commit message!)
 ![Image](commit-push.png)
-`<git add> <L> <tab> <enter>` to tell Git that I want to include updates to a `ListExamples.java` in the next commit and then `<git commit -m "lab report4 fix bug in ListExamples.java"> <enter>` to commit the changes and add a commit message, and then `<git push> <enter>` to push the changes to the github repository.
+`<git add> <L> <tab> <enter>` to tell Git that I want to include updates to `ListExamples.java` in the next commit and then `<git commit -m "lab report4 fix bug in ListExamples.java"> <enter>` to commit the changes and add a commit message, and then `<git push> <enter>` to push the changes to the github repository.
