@@ -1,7 +1,7 @@
 # Lab Report 4 - Vim (Week 7)
 ## Step 4 Log into ieng6
 ![Image](log-into-ieng6.png)
-I press `<ssh>` and `<ziy035@ieng6.ucsd.edu> <enter>`,becuase of I save the key on my computer so I it just let login without ask me the password
+I press `<ssh>` and `<ziy035@ieng6.ucsd.edu> <enter>`, becuase of I save the key on my computer so I it just let login without ask me the password.
 
 ## Step 5 Clone your fork of the repository from your Github account (using the SSH URL)
 ![Image](git-clone.png)
@@ -14,11 +14,12 @@ I press `<ls> <enter>` to check repository in my ieng6, and I use `<cd>` `<l>` `
 ![Image](open-vim.png)
 ![Image](use-vim-to-fix.png)
 I press `<vim> <L> <tab>` to vim mode to edit the `ListExamples.java` file
-then I press `</> <index1> <enter>`to open the find mode and then I press `<n>` untill find the right `index1`that we need to change to `index2`. After I find it, I press `<e>` to move to the last letter of the word which is `1` and then I press`<x>` to delete it and `<i>` to enter insert mode and press`<2>` to finish to change. And then I press`<:wq><enter>`
+then I press `</> <index1> <enter>`to open the find mode and then I press `<n>` untill find the right `index1`that we need to change to `index2`. After I find it, I press `<e>` to move to the last letter of the word which is `1` and then I press`<x>` to delete it and `<i>` to enter insert mode and press`<2>` to finish to change and press`<esc>`to exit the insert mode. And then I press`<:wq> <enter>` to save and exit vim mode.
 
 ## Step 8 Run the tests, demonstrating that they now succeed
 ![Image](runtest-succeed.png)
+I press `<bash> <t> <tab> <enter>` and then the result of all test passed show on the screen.
 
 ## Step 9 Commit and push the resulting change to your Github account (you can pick any commit message!)
 ![Image](commit-push.png)
-
+`<git add> <L> <tab> <enter>` to tell Git that I want to include updates to a `ListExamples.java` in the next commit and then `<git commit -m "lab report4 fix bug in ListExamples.java"> <enter>` to commit the changes and add a commit message, and then `<git push> <enter>` to push the changes to the github repository.
