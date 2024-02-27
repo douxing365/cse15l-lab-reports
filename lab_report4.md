@@ -17,7 +17,7 @@ I press `<vim> <L> <tab>` to vim mode to edit the `ListExamples.java` file
 then I press `</> <index1> <enter>`to open the find mode and then I press `<n>` untill find the right `index1`that we need to change to `index2`. After I find it, I press `<e>` to move to the last letter of the word which is `1` and then I press`<x>` to delete it and `<i>` to enter insert mode and press`<2>` to finish to change and press`<esc>`to exit the insert mode. And then I press`<:wq> <enter>` to save and exit vim mode.
 
 ## Step 8 Run the tests, demonstrating that they now succeed
-![Image](runtest-succeed.png)
+![Image](runtest-succeed.png)<br/>
 I press `<bash> <t> <tab> <enter>` and then the result of all test passed show on the screen.
 
 ## Step 9 Commit and push the resulting change to your Github account (you can pick any commit message!)
