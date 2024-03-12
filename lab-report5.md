@@ -10,4 +10,24 @@ Hey! From your description, it sounds like the loop might be running one iterati
 ### 3. screenshot of student trying TA's suggestion 
 -   ![Image](screenshot-of-trying-TA-suggest.png)<br />
 ### 4. all the information
+- The file & directory structure needed
+
+- Contents of each file before fixing the bug
+  ```
+  public class AverageCalculator {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        double average = calculateAverage(numbers);
+        System.out.println("The average is: " + average);
+    }
+
+    public static double calculateAverage(int[] nums) {
+        double sum = 0;
+        for (int i = 0; i <= nums.length; i++) { 
+            sum += nums[i]; 
+        }
+        return sum / nums.length;
+    }
+}
+- 
 
