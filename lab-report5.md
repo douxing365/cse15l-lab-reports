@@ -10,7 +10,7 @@ Hey! From your description, it sounds like the loop might be running one iterati
 ### 3. screenshot of student trying TA's suggestion 
 -   ![Image](screenshot-of-trying-TA-suggest.png)<br />
 ### 4. all the information
-- The file & directory structure needed
+- The file & directory structure needed <br />
 ![Image](directory-structure.png)<br />
 - Contents of each file before fixing the bug
 ```
@@ -30,5 +30,13 @@ Hey! From your description, it sounds like the loop might be running one iterati
     }
 }
 ```
-- 
+-  Full command line to trigger the bug
+```
+[user@sahara ~]$ javac AverageCalculator.java
+[user@sahara ~]$ java AverageCalculator
+```
+- A description of what to edit to fix the bug<br />
+Just simply change `<=` to `<` will fix the bug so that the code will stops before exceeding the array length. <br />
+## Part 2
+One cool thing I learned during the lab sessions this quarter was Vim. It's a powerful editor that allows me to modify my code directly in the terminal, something I had never considered before. Additionally, Vim's variety of interesting shortcuts and modes were truly eye-opening for me.
 
