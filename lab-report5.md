@@ -7,4 +7,4 @@ Hey guys, ran into this `ArrayIndexOutOfBoundsException` and it's kinda throwing
 ## 2. A response from TA 
 Hey! From your description, it sounds like the loop might be running one iteration too many, trying to access an element beyond the array's bounds. Usually, this happens if the loop uses `<=` instead of `<` in its condition. Try checking the loop condition in your code and make sure it stops before exceeding the array length. This small tweak should fix the issue!
 ## 3. screenshot of student trying TA's suggestion 
-- 
+-   ![Image](screenshot-of-TA-suggestion.png)<br />
