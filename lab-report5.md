@@ -11,9 +11,9 @@ Hey! From your description, it sounds like the loop might be running one iterati
 -   ![Image](screenshot-of-trying-TA-suggest.png)<br />
 ### 4. all the information
 - The file & directory structure needed
-
+![Image](directory-structure.png)<br />
 - Contents of each file before fixing the bug
-  ```
+```
   public class AverageCalculator {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
@@ -29,5 +29,6 @@ Hey! From your description, it sounds like the loop might be running one iterati
         return sum / nums.length;
     }
 }
+```
 - 
 
